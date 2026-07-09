@@ -29,7 +29,9 @@
 <span>همراه نوجوان</span>
 
 </div>
-
+<div class="menu-btn" onclick="toggleMenu()">
+    <i class="fa-solid fa-bars"></i>
+</div>
 <ul class="menu">
 
 <li><a href="index.html">خانه</a></li>
@@ -244,7 +246,12 @@ entry.target.classList.add('show');
 
 hiddenElements.forEach(el=>observer.observe(el));
 
+function toggleMenu(){
+    document.querySelector(".menu").classList.toggle("active");
+}
 </script>
+
+
 
 </body>
 
