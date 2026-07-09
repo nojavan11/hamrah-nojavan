@@ -611,7 +611,6 @@ a:hover{
         align-items:center;
     }
 
-    
 
 
 
@@ -647,9 +646,9 @@ a:hover{
         padding:15px;
     }
 
-    /*.hero{
+    .hero{
         margin-top:70px;
-    }*/
+    }
 
     .hero-overlay h1{
         font-size:34px;
@@ -698,7 +697,7 @@ a:hover{
 
   
 
-    .hero{
+     .hero{
         min-height:65vh;
     }
 
@@ -711,12 +710,13 @@ a:hover{
 
 
 
+
     .menu-btn{
         display:block;
         font-size:28px;
         color:white;
         cursor:pointer;
-            order:3;
+          
     }
 
     .navbar{
@@ -746,6 +746,7 @@ a:hover{
         display:block;
         padding:15px;
     }
+
 }
 
 @media (min-width:769px){
