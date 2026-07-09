@@ -772,8 +772,8 @@ transform:translateY(20px);
 
     .hero img{
         width:100%;
-        height:70vh;
-        object-fit:cover;
+        height:auto;
+        object-fit:contain;
     }
 
     .hero-card{
@@ -847,4 +847,4 @@ transform:translateY(20px);
     }
 
 }
-}
+
