@@ -55,7 +55,9 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 <span>همراه نوجوان</span>
 
 </div>
-
+<div class="menu-btn" onclick="toggleMenu()">
+    <i class="fa-solid fa-bars"></i>
+</div>
 <ul class="menu">
 
 <li><a href="index.html">خانه</a></li>
@@ -119,10 +121,10 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 </div>
 <div class="music-box">
 
-    <h3>سلام فرمانده-ابوذر روحی</h3>
+    <h3>بزن که خب میزنی -حاج مهدی رسولی</h3>
 
     <audio controls>
-        <source src="audio/21.mp3" type="audio/mpeg">
+        <source src="audio/20.mp3" type="audio/mpeg">
     </audio>
 
 </div>
@@ -250,6 +252,10 @@ audios.forEach(audio => {
     });
 
 });
+
+function toggleMenu(){
+    document.querySelector(".menu").classList.toggle("active");
+}
 
 </script>
 </body>
