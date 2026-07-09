@@ -33,7 +33,9 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 <span>همراه نوجوان</span>
 </div>
 
-
+<div class="menu-btn" onclick="toggleMenu()">
+    <i class="fa-solid fa-bars"></i>
+</div>
 <ul class="menu">
 
 <li><a href="index.html">خانه</a></li>
@@ -210,7 +212,11 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 </main>
 
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-<script ></script>
+<script>
+function toggleMenu(){
+    document.querySelector(".menu").classList.toggle("active");
+}
+</script>
 
 </body>
 </html>
