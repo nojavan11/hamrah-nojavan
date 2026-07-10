@@ -706,9 +706,12 @@ a:hover{
         background:rgba(15,36,67,.95);
         margin-top:15px;
         border-radius:15px;
-        gap:0 !important;
-            }
+   
+    gap:4px !important;
+}
 
+
+   
      .menu.active{
         display:flex !important;
         flex-direction:column !important;
@@ -727,7 +730,7 @@ a:hover{
         display:block;
         width:100%;
         margin:0 !important;
-    padding:10px 15px !important;
+    padding:13px 15px !important;
     line-height:1.2 !important;
         text-align:right;
     }
