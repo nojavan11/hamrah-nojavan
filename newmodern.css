@@ -706,6 +706,7 @@ a:hover{
         background:rgba(15,36,67,.95);
         margin-top:15px;
         border-radius:15px;
+        gap:0 !important;
             }
 
      .menu.active{
@@ -717,13 +718,17 @@ a:hover{
   .menu li{
      display:list-item !important;
         width:100%;
+        margin:0 !important;
+    padding:0 !important;
     }
 
     .menu a{
          display:block !important;
         display:block;
         width:100%;
-         padding:6px 15px;
+        margin:0 !important;
+    padding:6px 15px !important;
+    line-height:1.2 !important;
         text-align:right;
     }
 }
